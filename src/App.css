@@ -1,0 +1,137 @@
+#root {
+  margin: 0 auto;
+}
+.header-nav{
+  grid-template-columns: .8fr 2fr 1fr;
+
+}
+.maintext{
+  max-width: 540px;
+}
+.wallet-btn{
+  background-color: var(--mainColor);
+  color: white;
+  border-radius: .5em;
+  min-width: 150px;
+}
+.nav-ul{
+  align-content: center;
+  justify-content: center;
+}
+.home-section{
+  display: flex;
+  flex-direction: column;
+}
+.span-text-h1{
+  color: var(--mainColor);
+}
+h1{
+  color: #434343;
+  font-size: 3rem ;
+  line-height: 3.5rem ;}
+.home-inp-search{
+  outline: 1px solid #A3A3A3;
+}
+.home-btn,.mob-btn{
+  background-color: var(--mainColor)!important;
+}
+.home-p{
+  color: #434343;
+  font-size: 1.125rem;
+  line-height: 1.8em;
+  font-weight: 400;
+}
+main{
+  grid-template-rows: 1fr 1fr;
+}
+.nft-box{
+  border: 1px solid #D7D7D7;
+  border-radius: .8em;
+  max-width: 400px;
+}
+
+.mid-logo,.mockup-section{
+  background-color: var(--mainColor);
+}
+
+.mobilenav{
+  position: fixed;
+  height: 70%;
+  width: 90%;
+  z-index: 99999;
+  box-shadow: 0px 0px 8px 3px #434343;
+  background-color: rgba(173, 10, 165, 0.9);
+  border-bottom-left-radius: 100%;
+  border-top-left-radius: 100%;
+  right: -30%;
+  animation: appear .7s;
+}
+@keyframes appear{
+  from{
+    transform: translateX(100%);
+  }
+  to{
+    transform: translateX(0);
+  }
+}
+@media(min-width:500px){
+  .mobilenav{
+    /* width: 80%;
+    margin-left: -1em; */
+
+  }
+  .mob-btn{
+  }
+}
+@media(min-width:768px){
+  main{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: none;
+    gap: 8em;
+  }
+  .home-section{
+    gap: 20vh;
+  }
+  .home-p{
+    font-size: 1.2rem;
+  }  
+  h1{
+    font-weight: 500 !important;
+  }
+  .mockup-home{
+    position: relative;
+    right: 0;
+    top: -4em;
+  }
+  .purp{
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+  }  
+  .pro-img{
+    /* height: auto; */
+    width: 100%;
+  }
+  .mobilenav{
+    width: 70%;
+  }
+}
+
+@media(min-width:990px){
+  main{
+    grid-template-columns: 1fr .6fr;
+  }
+  .mockup-home{
+    position: relative;
+    top: -5em;
+  }
+h1{
+  font-size: 3.3rem !important;
+  line-height: 5rem !important ;
+}
+.maintext{
+  max-width: 100%;
+}
+.nft-box{
+  max-width: 100%;
+}
+}
