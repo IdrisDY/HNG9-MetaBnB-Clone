@@ -23,14 +23,14 @@ const modArray =  reduce(images);
     <>
 <section className='flex flex-col gap-10 md:gap-20' >
 
-    <section className='home-section w-9/10 m-auto pt-12 gap-16 md:gap-20  lg:gap-40'>
+    <section className='home-section w-9/10 m-auto pt-12 gap-16 md:gap-20  lg:gap-36'>
     
     <Header/>
 
 <main className=' flex flex-col md:grid  gap-10 md:gap-20 lg:gap-10 items-center justify-center '>
-<div className='flex flex-col maintext gap-5 md:gap-5 lg:gap-10'>
+<div className='flex flex-col maintext gap-5 md:gap-5 lg:gap-8'>
    <h1 className ='  text-center text-3xl md:text-4xl md:text-left lg:w-9/10'>Rent a <span className='span-text-h1'>Place </span>away from <span className='span-text-h1'>Home </span>in the <span className='span-text-h1'>Metaverse</span></h1>
-<p className='home-p w-4/5 m-auto text-center md:text-left md:w-full lg:max-w-8/10'> we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
+<p className='home-p w-4/5 text-center md:text-left md:w-full lg:max-w-8/10'> we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
 <div className='flex flex-col md:w-full md:flex-row lg:max-w-8/10'>
    <input className='  md:w-2/3 home-inp-search p-3 rounded' type='search' placeholder='search for location'/>
    <input className ='  md:w-1/3 p-3  text-white home-btn rounded' type='button' value='Search'/>
