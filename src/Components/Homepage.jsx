@@ -28,8 +28,8 @@ const modArray =  reduce(images);
 
 <main className=' flex flex-col md:grid md:mt-40 gap-10 md:gap-20 lg:gap-10 items-center justify-center '>
 <div className='flex flex-col maintext gap-5 md:gap-5 pt-8 lg:gap-8'>
-   <h1 className ='  text-center text-3xl md:text-4xl md:text-left lg:w-9/10'>Rent a <span className='span-text-h1'>Place </span>away from <span className='span-text-h1'>Home </span>in the <span className='span-text-h1'>Metaverse</span></h1>
-<p className='home-p  text-center m-auto md:text-left md:m-0 md:w-full lg:max-w-8/10'> we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
+   <h1 className =' px-1  text-2xl leading md:text-4xl md:text-left lg:w-9/10'>Rent a <span className='span-text-h1'>Place </span>away from <span className='span-text-h1'>Home </span>in the <span className='span-text-h1'>Metaverse</span></h1>
+<p className='home-p px-2  m-auto md:text-left md:m-0 md:w-full lg:max-w-8/10'> we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
 <div className='flex flex-col md:w-full md:flex-row lg:max-w-8/10'>
    <input className='  md:w-2/3 home-inp-search p-3 rounded' type='search' placeholder='search for location'/>
    <input className ='  md:w-1/3 p-3  text-white home-btn rounded' type='button' value='Search'/>

@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 const MobileNav=({style,menuClick})=>(
   <div  className=' hidden flex flex-col text-white align-center justify-center pl-[15%] gap-5 md:pl-[10%] mobilenav' style={style}>
      <button onClick={menuClick} className='text-3xl text-black-900  mr-[50%] space-y-8'> X </button>
-     <div className='  flex align-center justify-center'  >
+     <div className='  flex align-center justify-center px-6'  >
 <ul className='nav-ul flex flex-col gap-6 lg:gap-16 md:gap-7 items-start w-full  '>
    <li className='nav-list '><Link to='/'>Home</Link></li>
    <li className='nav-list'><Link to='/places'>Place to Stay</Link></li>
@@ -16,7 +16,7 @@ const MobileNav=({style,menuClick})=>(
 </ul>
 </div>
 <div className='flex'>
-<button className=' md:w-1/3 text-[.7rem] mob-btn text-white ml-4 rounded-xl px-3 py-2'>Connect Wallet</button>
+<button className=' w-1/2 md:w-1/3 text-[.7rem] mob-btn text-white ml-4 rounded-xl px-5 py-3'>Connect Wallet</button>
 </div>
 
 </div> 
