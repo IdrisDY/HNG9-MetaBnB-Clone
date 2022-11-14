@@ -9,9 +9,9 @@ const MobileNav=({style,menuClick})=>(
      <button onClick={menuClick} className='text-3xl text-black-900  mr-[50%] space-y-8'> X </button>
      <div className='  flex align-center justify-center'  >
 <ul className='nav-ul flex flex-col gap-6 lg:gap-16 md:gap-7 items-start w-full  '>
-   <li className='nav-list '><Link to='/' >Home</Link></li>
-   <li className='nav-list'>Place to Stay</li>
-   <li className='nav-list'> <Link to='/nfts' >NFTs</Link></li>
+   <li className='nav-list '><Link to='/'>Home</Link></li>
+   <li className='nav-list'><Link to='/places'>Place to Stay</Link></li>
+   <li className='nav-list'>NFTs</li>
    <li className='nav-list'>Community</li>
 </ul>
 </div>
@@ -30,7 +30,7 @@ const Header = () => {
      console.log(e.target.innerHTML);
    }
   return (
-    <nav className='header-nav flex lg:grid gap-4 justify-between'>
+    <nav className='header-nav flex lg:grid gap-4 justify-between lg:fixed lg:bg-white mx-auto w-full px-5 py-3' >
       <div className='flex items-center'>
          <img src={headerlogo} alt='header-logo' className='w-2/3'/>
       </div>
@@ -38,12 +38,12 @@ const Header = () => {
 
 <ul className='nav-ul flex lg:gap-16 md:gap-7 items-center w-full  '>
    <li className='nav-list '><Link to='/' >Home</Link></li>
-   <li className='nav-list'>Place to Stay</li>
-   <li className='nav-list'><Link to='/nfts' >NFTs</Link></li>
+   <li className='nav-list'><Link to='/places' >Place to Stay</Link></li>
+   <li className='nav-list'>NFTs</li>
    <li className='nav-list'>Community</li>
 </ul>
 </div>
-<div className=' hidden mx-auto lg:flex'>
+<div className=' hidden  items-end justify-end lg:flex'>
 <button className='wallet-btn px-5 py-2'>Connect Wallet</button>
 </div>
       <button onClick={handleMenuClick} >
