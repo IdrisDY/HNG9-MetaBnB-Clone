@@ -5,6 +5,7 @@ import { Homepage } from './Components/Homepage'
 import { NftShow } from './Components/NftShow'
 import PurpleMockup from './Components/purpleMockup'
 import Header from './Components/Reusable/Header'
+import Footer from './Components/IdrisFooterComponents/FooterIdris'
 import {BrowserRouter as Router,Route,Routes} from 'react-router-dom'
 function App() {
   const [count, setCount] = useState(0)
@@ -17,7 +18,7 @@ function App() {
         <Route path='/' element={ <Homepage/>}/>
         <Route path='/places' element={ <NftShow/>}/>
       </Routes>
-      {/* <PurpleMockup/> */}
+      <Footer/>
     </div>
           </Router>
   )

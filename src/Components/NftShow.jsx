@@ -2,7 +2,7 @@ import React from 'react'
 import {images} from './Reusable/nftimages.js'
 import settingimg from '../assets/setting-5.svg'
 import Nftprop from './Reusable/nftprop.jsx'
-import Header from './Reusable/Header.jsx'
+
 export const NftShow = () => {
   return (
     <section className='w-9/10 m-auto  py-5 lg:pt-24'>
