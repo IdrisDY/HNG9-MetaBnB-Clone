@@ -6,8 +6,8 @@ import Nftprop from './Reusable/nftprop.jsx'
 export const NftShow = () => {
   return (
     <section className='w-9/10 m-auto  py-5 lg:pt-24'>
-    <div className=''> 
-    <ul className='md:flex w-full hidden justify-between flex-wrap ' > 
+    <div className='flex'> 
+    <ul className='md:flex w-full  justify-between gap-1 flex flex-wrap ' > 
     <li> Restaurants </li>
     <li> Cottage</li>
     <li> Cattle</li>
@@ -17,7 +17,7 @@ export const NftShow = () => {
     <li> Off grid</li>
     <li> Farm</li>
     <li>
-    <div className='flex'> <span>Location</span>
+    <div className='flex border-2 border-stone-600 px-2 rounded-md'> <span>Location</span>
     <img src={settingimg} alt='setting icon '/>
     </div>
      </li>
