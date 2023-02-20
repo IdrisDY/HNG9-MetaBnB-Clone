@@ -33,8 +33,8 @@ setMenuClick(false)
    <ul className='nav-ul flex flex-col gap-6 lg:gap-16 md:gap-7 items-start w-full  '>
     <li className='nav-list whitelinks '><Link to='/'>Home</Link></li>
     <li className='nav-list whitelinks'><Link to='/places'>Place to Stay</Link></li>
-    <li className='nav-list whitelinks'>NFTs</li>
-    <li className='nav-list whitelinks'>Community</li>
+    <li className='nav-list whitelinks  '>NFTs</li>
+    <li className='nav-list whitelinks cursor-pointer '>Community</li>
    </ul>
    </div>
    <div className='flex'>
@@ -57,8 +57,8 @@ setMenuClick(false)
 <ul className='nav-ul flex lg:gap-16 md:gap-7 items-center w-full  '>
    <li className='nav-list links'><Link to='/' >Home</Link></li>
    <li className='nav-list links'><Link to='/places' >Place to Stay</Link></li>
-   <li className='nav-list links'>NFTs</li>
-   <li className='nav-list links'>Community</li>
+   <li className='nav-list links cursor-pointer'>NFTs</li>
+   <li className='nav-list links cursor-pointer'>Community</li>
 </ul>
 </div>
 <div className=' hidden  items-end justify-end lg:flex'>
